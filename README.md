@@ -1,22 +1,20 @@
-# Twitch Channel Points Miner
+# Фармим баллы у стримеров на TWITCH
 
 # Note
-### I'm not actively developing this repo. You can use the enhanced fork: https://github.com/Tkd-Alex/Twitch-Channel-Points-Miner-v2
+### Данный проект сделан для форума https://white-haker.ru/ каждый может его обновлять и добавлять функции. 
 
-A simple script that will watch a stream for you and earn the channel points.
+Простой скрипт, который будет смотреть для вас трансляцию и зарабатывать баллы за канал.
 
-It can wait for a streamer to go live (+_450 points_ when the stream starts),
-it will automatically click the bonus button (_+50 points_),
-and it will follow raids (_+250 points_).
+Он может подождать, пока стример выйдет в эфир (+450 очков при запуске трансляции), он автоматически нажмет кнопку "Бонус" (+50 очков) и будет следить за рейдами (+250 очков).
 
-To run it, you first have to:
+Чтобы запустить его, вам сначала нужно:
 
-1) [Download Python](https://www.python.org/downloads/).
-2) Install the dependencies. Run these two commands in the command line:<br>
+1) [Скачать Python](https://www.python.org/downloads/).
+2) Установите зависимости:<br>
 `cd C:/path/to/directory/with/program/`<br>
 `pip3 install -r requirements.txt`<br>
 
 
-Then you can run `main.py`
+Запускаемый файл `main.py`
 
 ![Screenshot](https://user-images.githubusercontent.com/55288842/96374655-8f233c00-117c-11eb-8c02-b2ba0d0d5962.png)
